@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    font-family: Poppins;
+    background-image: url(pexels-pixabay-164880.jpg);
+    
+}
+.login{
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    width: 500px;
+    height: 550px;
+    line-height: 35px;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    box-shadow: 0px 0px 15px black;
+    border-radius: 15px;
+    padding: 30px;
+}
+input[type=email],input[type=password]{
+ width: 350px;
+ height: 25px;
+ margin-top: 20px;
+ font-family: poppins;
+ font-size: 17px;
+ background: transparent;
+ outline: none;
+ border: none;
+
+}
+input[type=email]:hover,input[type=password]:hover{
+    border-bottom: 1px solid black;
+    transition: 1.0s;
+}
+
+label{
+    margin-right: 275px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input[type=button],input[type=reset]{
+    background-color: transparent;
+    margin: 15px;
+    font-family: poppins;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+input[type=button]:hover,input[type=reset]:hover{
+    background-color: lightblue;
+    border: none;
+    outline: none;
+    
+}
